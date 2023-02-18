@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+   }
+    
+   #game-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid 1px;
+   }
+    
+   #my-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    border: dotted;
+   }
+    
+   button {
+    width: 160px;
+    border-radius: 20px;
+    height: 1.5 rem;
+    padding: 10px;
+    font-size: xx-large;
+    color: white;
+   }
+    
+   #btn-plus {
+    background-color: green;
+   }
+    
+   #btn-minus {
+    background-color: orange;
+   }
+    
+   #btn-submit {
+    background-color: black;
+   }
+    
+   #question-holder, #answer-holder {
+    background-color: white;
+    color: black;
+    width: 300px;
+    font-size: xx-large;
+   }
+    
+   .score-headings {
+    display: flex;
+   }
+    
+   .score-values {
+    display: flex;
+   }
+    
+   .score-headings p {
+    font-size: x-large;
+    margin: 40px;
+   }
+    
+   .score-values p {
+    font-size: x-large;
+    margin: 40px;
+   }
